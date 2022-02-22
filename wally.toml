@@ -9,3 +9,4 @@ authors = ["Lewis Crichton <lewistehminerz@outlook.com>"]
 
 registry = "https://github.com/upliftgames/wally-index"
 
+realm = "shared"
