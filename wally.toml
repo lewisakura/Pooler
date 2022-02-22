@@ -1,0 +1,11 @@
+[package]
+name = "lewistehminerz/pooler"
+description = "Fast and easy to use instance pooler"
+version = "1.0.0"
+
+license = "MIT"
+
+authors = ["Lewis Crichton <lewistehminerz@outlook.com>"]
+
+registry = "https://github.com/upliftgames/wally-index"
+

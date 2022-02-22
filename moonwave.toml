@@ -1,0 +1,28 @@
+title = "Pooler"
+gitRepoUrl = "https://github.com/LewisTehMinerz/Pooler"
+changelog = true
+
+[docusaurus]
+url = "https://pooler.lewistehminerz.dev"
+baseUrl = "/"
+tagline = "Fast and easy to use instance pooler."
+favicon = "/logo.png"
+
+[home]
+enabled = true
+includeReadme = true
+
+[[home.features]]
+title = "Speedy"
+description = "Faster than the equivalent Instance.new() calls by ~42% in the best case scenario."
+
+[[home.features]]
+title = "Easy"
+description = "Easy to use and drop in to your existing codebase. No need to make massive alterations."
+
+[[home.features]]
+title = "Customizable"
+description = "All the options under the sun, and then some."
+
+[footer]
+style = "dark"

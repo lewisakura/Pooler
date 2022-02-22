@@ -1,0 +1,12 @@
+{
+    "name": "pooler-test",
+    "tree": {
+        "$className": "DataModel",
+        "ServerScriptService": {
+            "$className": "ServerScriptService",
+            "Lib": {
+                "$path": "lib"
+            }
+        }
+    }
+}
