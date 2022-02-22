@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="generator" content="Docusaurus v2.0.0-beta.9">
+<title data-react-helmet="true">Pooler | Pooler</title><meta data-react-helmet="true" property="og:title" content="Pooler | Pooler"><meta data-react-helmet="true" name="twitter:card" content="summary_large_image"><meta data-react-helmet="true" name="description" content="An instance pooler."><meta data-react-helmet="true" property="og:description" content="An instance pooler."><meta data-react-helmet="true" property="og:url" content="https://pooler.lewistehminerz.dev/api/Pooler"><meta data-react-helmet="true" name="docusaurus_locale" content="en"><meta data-react-helmet="true" name="docusaurus_tag" content="default"><link data-react-helmet="true" rel="shortcut icon" href="/logo.png"><link data-react-helmet="true" rel="canonical" href="https://pooler.lewistehminerz.dev/api/Pooler"><link data-react-helmet="true" rel="alternate" href="https://pooler.lewistehminerz.dev/api/Pooler" hreflang="en"><link data-react-helmet="true" rel="alternate" href="https://pooler.lewistehminerz.dev/api/Pooler" hreflang="x-default"><link rel="stylesheet" href="/assets/css/styles.75b58270.css">
+<link rel="preload" href="/assets/js/runtime~main.ad57161c.js" as="script">
+<link rel="preload" href="/assets/js/main.3e565b80.js" as="script">
+</head>
+<body>
+<script>!function(){function e(e){document.documentElement.setAttribute("data-theme",e)}var t=function(){var e=null;try{e=localStorage.getItem("theme")}catch(e){}return e}();null!==t?e(t):window.matchMedia("(prefers-color-scheme: dark)").matches?e("dark"):(window.matchMedia("(prefers-color-scheme: light)").matches,e("light"))}()</script><div id="__docusaurus">
+<div><a href="#" class="skipToContent_1oUP">Skip to main content</a></div><nav class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Navigation bar toggle" class="navbar__toggle clean-btn" type="button" tabindex="0"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"><b class="navbar__title">Pooler</b></a><a class="navbar__item navbar__link" href="/docs/intro">Docs</a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/api/">API</a><a class="navbar__item navbar__link" href="/changelog">Changelog</a></div><div class="navbar__items navbar__items--right"><a href="https://github.com/LewisTehMinerz/Pooler" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link"><span>GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_3J9K"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></span></a><div class="toggle_71bT toggle_3Zt9 toggleDisabled_3cF-"><div class="toggleTrack_32Fl" role="button" tabindex="-1"><div class="toggleTrackCheck_3lV7"><span class="toggleIcon_O4iE">🌜</span></div><div class="toggleTrackX_S2yS"><span class="toggleIcon_O4iE">🌞</span></div><div class="toggleTrackThumb_xI_Z"></div></div><input type="checkbox" class="toggleScreenReader_28Tw" aria-label="Switch between dark and light mode"></div><div class="navbar__search"><span aria-label="expand searchbar" role="button" class="search-icon" tabindex="0"></span><input type="search" id="search_input_react" placeholder="Press S to Search..." aria-label="Search" class="navbar__search-input search-bar"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div class="main-wrapper docPageContainer_2Kz0"><div class="docPage_1bdk"><div class="docSidebarContainer_1ykS"><div class="sidebar_15mo"><nav class="menu thin-scrollbar menu_Bmed"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" href="/api/Pooler">​Pooler</a></li></ul></nav><button type="button" title="Collapse sidebar" aria-label="Collapse sidebar" class="button button--secondary button--outline collapseSidebarButton_1CGd"><svg width="20" height="20" aria-hidden="true" class="collapseSidebarButtonIcon_3E-R"><g fill="#7a7a7a"><path d="M9.992 10.023c0 .2-.062.399-.172.547l-4.996 7.492a.982.982 0 01-.828.454H1c-.55 0-1-.453-1-1 0-.2.059-.403.168-.551l4.629-6.942L.168 3.078A.939.939 0 010 2.528c0-.548.45-.997 1-.997h2.996c.352 0 .649.18.828.45L9.82 9.472c.11.148.172.347.172.55zm0 0"></path><path d="M19.98 10.023c0 .2-.058.399-.168.547l-4.996 7.492a.987.987 0 01-.828.454h-3c-.547 0-.996-.453-.996-1 0-.2.059-.403.168-.551l4.625-6.942-4.625-6.945a.939.939 0 01-.168-.55 1 1 0 01.996-.997h3c.348 0 .649.18.828.45l4.996 7.492c.11.148.168.347.168.55zm0 0"></path></g></svg></button></div></div><main class="docMainContainer_28N5"><div class="container padding-vert--lg"><div class="row"><div class="col docItemCol_3WPG"><div class="docItemContainer_3XDu"><article><div class="member_qHIL markdown"><div class="tocCollapsible_1PrD theme-doc-toc-mobile tocMobile_3ryM"><button type="button" class="clean-btn tocCollapsibleButton_2O1e">On this page</button></div><header><h1 class="docTitle_1ddc" style="text-decoration:none"><span style="display:inline-block">Pooler</span></h1><div class="luaClassTags_2Zrs"></div><div>
+<p>An instance pooler.</p>
+</div></header><h2 class="anchor anchorWithStickyNavbar_31ik" id="types">Types<a aria-hidden="true" class="hash-link" href="#types" title="Direct link to heading">​</a></h2><div class="divider_3z1R"></div><h3 class="anchor anchorWithStickyNavbar_31ik" id="GetMethod"><code style="text-decoration:none">GetMethod</code><a aria-hidden="true" class="hash-link" href="#GetMethod" title="Direct link to heading">​</a></h3><div class="repositoryDetailsContainer_1UH0"><a class="sourceButton_2aE5" href="https://github.com/LewisTehMinerz/Pooler/blob/master/lib/init.lua#L33"><div class="sourceButtonText_monK">&lt;/&gt;</div></a></div><div class="memberString_P8-X"><code class="purple__nFc">type</code> <code>GetMethod<!-- --> = </code> <code class="blue_2Afy">&quot;sequential&quot;</code><code class="op_1JtD"> | </code><code class="blue_2Afy">&quot;random&quot;</code></div><div>
+<p>
+  The method that this Pooler should use to retrieve instances. <code>sequential</code> will retrieve them in an ascending order (item 1 -> item <code>n</code>)
+  whilst <code>random</code> will retrieve instances randomly.
+</p>
+</div><div class="divider_3z1R"></div><h3 class="anchor anchorWithStickyNavbar_31ik" id="ReturnMethod"><code style="text-decoration:none">ReturnMethod</code><a aria-hidden="true" class="hash-link" href="#ReturnMethod" title="Direct link to heading">​</a></h3><div class="repositoryDetailsContainer_1UH0"><a class="sourceButton_2aE5" href="https://github.com/LewisTehMinerz/Pooler/blob/master/lib/init.lua#L43"><div class="sourceButtonText_monK">&lt;/&gt;</div></a></div><div class="memberString_P8-X"><code class="purple__nFc">type</code> <code>ReturnMethod<!-- --> = </code> <code class="blue_2Afy">&quot;nilParent&quot;</code><code class="op_1JtD"> | </code><code class="blue_2Afy">&quot;cframe&quot;</code></div><div>
+<p>
+  The method that this Pooler should use to return instances. <code>nilParent</code> will set the instance's parent to <code>nil</code> and leave all other
+  properties intact whilst <code>cframe</code> will set the CFrame of the instance to a very long distance away, which is faster for BaseParts
+  and Models with PrimaryPart set. <code>cframe</code>, as such, is only supported if you're pooling BaseParts or Models.
+</p>
+</div><div class="divider_3z1R"></div><h3 class="anchor anchorWithStickyNavbar_31ik" id="Options"><code style="text-decoration:none">Options</code><a aria-hidden="true" class="hash-link" href="#Options" title="Direct link to heading">​</a></h3><div class="repositoryDetailsContainer_1UH0"><a class="sourceButton_2aE5" href="https://github.com/LewisTehMinerz/Pooler/blob/master/lib/init.lua#L57"><div class="sourceButtonText_monK">&lt;/&gt;</div></a></div><div class="memberString_P8-X"><code class="purple__nFc">interface</code> <code>Options<!-- --> <!-- -->{</code><div class="inset_2cJr"><div><code>size<!-- -->: </code><code class="blue_2Afy">number?</code><span class="inlineDescription_17uy">-- <span>
+<p>The number of objects to initialise this pool with.</p>
+</span></span></div><div><code>getMethod<!-- -->: </code><code class="blue_2Afy"><a style="text-decoration:underline;color:inherit" href="/api/Pooler#GetMethod">GetMethod?</a></code><span class="inlineDescription_17uy">-- <span>
+<p>The get method to use.</p>
+</span></span></div><div><code>returnMethod<!-- -->: </code><code class="blue_2Afy"><a style="text-decoration:underline;color:inherit" href="/api/Pooler#ReturnMethod">ReturnMethod?</a></code><span class="inlineDescription_17uy">-- <span>
+<p>The return method to use.</p>
+</span></span></div><div><code>unsafe<!-- -->: </code><code class="blue_2Afy">boolean?</code><span class="inlineDescription_17uy">-- <span>
+<p>Whether or not the Pooler should skip safety checks. This pretty much means that you're on your own when it comes to doing things properly, but it increases performance.</p>
+</span></span></div><div><code>exhaustion<!-- -->: </code><code class="blue_2Afy">boolean?</code><span class="inlineDescription_17uy">-- <span>
+<p>Whether or not the pool can be exhausted. When enabled, instances will be removed from the internal pool table and you will have to return them yourself to add them back.</p>
+</span></span></div></div><code>}</code></div><div>
+<p>An object that describes any extra options you want to pass when creating a Pooler. All options are not required.</p>
+</div><h2 class="anchor anchorWithStickyNavbar_31ik" id="functions">Functions<a aria-hidden="true" class="hash-link" href="#functions" title="Direct link to heading">​</a></h2><div class="divider_3z1R"></div><h3 class="anchor anchorWithStickyNavbar_31ik" id="new"><code style="text-decoration:none">new</code><a aria-hidden="true" class="hash-link" href="#new" title="Direct link to heading">​</a></h3><span class="docTag_3qMS" style="border-color:#ff793f;color:#ff793f">Constructor</span><div class="repositoryDetailsContainer_1UH0"><a class="sourceButton_2aE5" href="https://github.com/LewisTehMinerz/Pooler/blob/master/lib/init.lua#L84"><div class="sourceButtonText_monK">&lt;/&gt;</div></a></div><div class="memberString_P8-X"><code>Pooler<!-- -->.</code><code class="green_3LnD">new</code><code>(</code><div class="inset_2cJr"><div><code>instanceTemplate<!-- -->: </code><code class="blue_2Afy">T</code><code>,</code><span class="inlineDescription_17uy">-- <span>
+<p>The instance that this Pooler should base its pooled objects on.</p>
+</span></span></div><div><code>opts<!-- -->: </code><code class="blue_2Afy"><a style="text-decoration:underline;color:inherit" href="/api/Pooler#Options">Options?</a></code><span class="inlineDescription_17uy">-- <span>
+<p>Any extra options you want to pass.</p>
+</span></span></div></div><code>) → </code><code class="blue_2Afy"><a style="text-decoration:underline;color:inherit" href="/api/Pooler">Pooler</a></code><code class="op_1JtD">&lt;</code><code class="blue_2Afy">T</code><code class="op_1JtD">&gt;</code><span class="inlineDescription_17uy">-- <span>
+<p>A Pooler instance.</p>
+</span></span></div><div>
+<p>Creates a new Pooler instance.</p>
+<pre class="language-lua"><code class="language-lua"><span class="token keyword">local</span> pool <span class="token operator">=</span> Pooler<span class="token punctuation">.</span><span class="token function">new</span><span class="token punctuation">(</span>Instance<span class="token punctuation">.</span><span class="token function">new</span><span class="token punctuation">(</span><span class="token string">"Part"</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+</code></pre>
+</div><h3>Errors</h3><table class="errorTable_25fH"><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>&quot;cannot create Pooler without an instance template&quot;</td><td>Occurs when you&#x27;re attempting to create a Pooler without a template.</td></tr><tr><td>&quot;cannot create Pooler with cframe return method if instance template is not a BasePart or Model&quot;</td><td>Occurs when trying to use the `cframe` ReturnMethod when your template isn&#x27;t a BasePart or a Model.</td></tr><tr><td>&quot;cannot create Pooler with cframe return method if instance template is a Model and it has no PrimaryPart&quot;</td><td>Occurs when trying to use the `cframe` ReturnMethod when your template is a Model and it has no PrimaryPart.</td></tr><tr><td>&quot;cannot use random getMethod with exhaustion enabled&quot;</td><td>Occurs when you&#x27;re trying to use the `random` GetMethod with `exhaustion` enabled. `random` is not a valid GetMethod since it might retrieve a nil value.</td></tr></tbody></table><div class="divider_3z1R"></div><h3 class="anchor anchorWithStickyNavbar_31ik" id="Get"><code style="text-decoration:none">Get</code><a aria-hidden="true" class="hash-link" href="#Get" title="Direct link to heading">​</a></h3><div class="repositoryDetailsContainer_1UH0"><a class="sourceButton_2aE5" href="https://github.com/LewisTehMinerz/Pooler/blob/master/lib/init.lua#L175"><div class="sourceButtonText_monK">&lt;/&gt;</div></a></div><div class="memberString_P8-X"><code>Pooler<!-- -->:</code><code class="green_3LnD">Get</code><code>(</code><code>) → </code><code class="blue_2Afy">T</code><span class="inlineDescription_17uy">-- <span>
+<p>An instance.</p>
+</span></span></div><div>
+<p>Gets an instance from the pool.</p>
+<pre class="language-lua"><code class="language-lua"><span class="token keyword">local</span> pool <span class="token operator">=</span> Pooler<span class="token punctuation">.</span><span class="token function">new</span><span class="token punctuation">(</span>Instance<span class="token punctuation">.</span><span class="token function">new</span><span class="token punctuation">(</span><span class="token string">"Part"</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+<span class="token keyword">local</span> instance <span class="token operator">=</span> pool<span class="token punctuation">:</span><span class="token function">Get</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</code></pre>
+</div><h3>Errors</h3><table class="errorTable_25fH"><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>&quot;attempt to use destroyed Pooler instance&quot;</td><td>Occurs when this Pooler has been destroyed and you are trying to call methods on it.</td></tr><tr><td>&quot;pool exhausted&quot;</td><td>Occurs when the pool has been exhausted of all of it&#x27;s instances and exhaustion is enabled.</td></tr></tbody></table><div class="divider_3z1R"></div><h3 class="anchor anchorWithStickyNavbar_31ik" id="Wait"><code style="text-decoration:none">Wait</code><a aria-hidden="true" class="hash-link" href="#Wait" title="Direct link to heading">​</a></h3><span class="badge_3ZFo" style="color:#f1c40f"><span class="badgeTooltip_2qiw">This is a yielding function. When called, it will pause the Lua thread that called the function until a result is ready to be returned, without interrupting other scripts.</span><span class="badgeToolTipTail_2yaQ"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="#f1c40f" role="img" aria-label="This is a yielding function. When called, it will pause the Lua thread that called the function until a result is ready to be returned, without interrupting other scripts."><path d="M96.4 11.9c-1.4-2.5-4-4-6.9-4H10.8c-2.9 0-5.4 1.5-6.9 4-1.4 2.5-1.4 5.5 0 7.9L43.3 88c1.4 2.5 4 4 6.9 4 2.9 0 5.4-1.5 6.9-4l39.3-68.2c1.4-2.4 1.4-5.4 0-7.9zM46.3 54.5c1.1-1.1 2.3-1.6 3.8-1.6s2.8.5 3.8 1.6c1.1 1.1 1.6 2.3 1.6 3.8s-.5 2.8-1.6 3.8c-1.1 1.1-2.3 1.6-3.8 1.6s-2.8-.5-3.8-1.6c-1.1-1.1-1.6-2.3-1.6-3.8.1-1.5.6-2.8 1.6-3.8zm-.5-4.9V21.8h8.8v27.8h-8.8z"></path></svg> <!-- -->Yields</span></span><div class="repositoryDetailsContainer_1UH0"><a class="sourceButton_2aE5" href="https://github.com/LewisTehMinerz/Pooler/blob/master/lib/init.lua#L228"><div class="sourceButtonText_monK">&lt;/&gt;</div></a></div><div class="memberString_P8-X"><code>Pooler<!-- -->:</code><code class="green_3LnD">Wait</code><code>(</code><code>) → </code><code class="blue_2Afy">T</code><span class="inlineDescription_17uy">-- <span>
+<p>An instance.</p>
+</span></span></div><div>
+<p>Gets an instance from the pool. If the pool is exhausted, it will wait until an instance is available before returning.</p>
+<pre class="language-lua"><code class="language-lua"><span class="token keyword">local</span> pool <span class="token operator">=</span> Pooler<span class="token punctuation">.</span><span class="token function">new</span><span class="token punctuation">(</span>Instance<span class="token punctuation">.</span><span class="token function">new</span><span class="token punctuation">(</span><span class="token string">"Part"</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+<span class="token keyword">local</span> instance <span class="token operator">=</span> pool<span class="token punctuation">:</span><span class="token function">Wait</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</code></pre>
+</div><h3>Errors</h3><table class="errorTable_25fH"><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>&quot;attempt to use destroyed Pooler instance&quot;</td><td>Occurs when this Pooler has been destroyed and you are trying to call methods on it.</td></tr></tbody></table><div class="divider_3z1R"></div><h3 class="anchor anchorWithStickyNavbar_31ik" id="Return"><code style="text-decoration:none">Return</code><a aria-hidden="true" class="hash-link" href="#Return" title="Direct link to heading">​</a></h3><div class="repositoryDetailsContainer_1UH0"><a class="sourceButton_2aE5" href="https://github.com/LewisTehMinerz/Pooler/blob/master/lib/init.lua#L261"><div class="sourceButtonText_monK">&lt;/&gt;</div></a></div><div class="memberString_P8-X"><code>Pooler<!-- -->:</code><code class="green_3LnD">Return</code><code>(</code><div class="inset_2cJr"><div><code>instance<!-- -->: </code><code class="blue_2Afy">T</code><span class="inlineDescription_17uy">-- <span>
+<p>The instance to return.</p>
+</span></span></div></div><code>) → </code><code>(</code><code>)</code></div><div>
+<p>Returns an instance to the pool.</p>
+<pre class="language-lua"><code class="language-lua"><span class="token keyword">local</span> pool <span class="token operator">=</span> Pooler<span class="token punctuation">.</span><span class="token function">new</span><span class="token punctuation">(</span>Instance<span class="token punctuation">.</span><span class="token function">new</span><span class="token punctuation">(</span><span class="token string">"Part"</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+<span class="token keyword">local</span> instance <span class="token operator">=</span> pool<span class="token punctuation">:</span><span class="token function">Get</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+pool<span class="token punctuation">:</span><span class="token function">Return</span><span class="token punctuation">(</span>instance<span class="token punctuation">)</span>
+</code></pre>
+</div><h3>Errors</h3><table class="errorTable_25fH"><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>&quot;attempt to use destroyed Pooler instance&quot;</td><td>Occurs when this Pooler has been destroyed and you are trying to call methods on it.</td></tr><tr><td>&quot;attempt to return instance not part of this pool&quot;</td><td>Occurs when you attempt to return an instance that wasn&#x27;t a part of this pool to begin with.</td></tr><tr><td>&quot;instance is not a BasePart or Model but it&#x27;s using the cframe return method&quot;</td><td>Occurs when the instance you&#x27;re returning is not a BasePart or a Model, but you&#x27;re somehow using the CFrame return method. If safety is enabled and you haven&#x27;t been tampering with the internals, this is almost always a bug and should be reported.</td></tr></tbody></table><div class="divider_3z1R"></div><h3 class="anchor anchorWithStickyNavbar_31ik" id="Size"><code style="text-decoration:none">Size</code><a aria-hidden="true" class="hash-link" href="#Size" title="Direct link to heading">​</a></h3><div class="repositoryDetailsContainer_1UH0"><a class="sourceButton_2aE5" href="https://github.com/LewisTehMinerz/Pooler/blob/master/lib/init.lua#L306"><div class="sourceButtonText_monK">&lt;/&gt;</div></a></div><div class="memberString_P8-X"><code>Pooler<!-- -->:</code><code class="green_3LnD">Size</code><code>(</code><code>) → </code><code class="blue_2Afy">number</code><span class="inlineDescription_17uy">-- <span>
+<p>The size of the pool.</p>
+</span></span></div><div>
+<p>Get the current size of the pool.</p>
+<pre class="language-lua"><code class="language-lua"><span class="token keyword">local</span> pool <span class="token operator">=</span> Pooler<span class="token punctuation">.</span><span class="token function">new</span><span class="token punctuation">(</span>Instance<span class="token punctuation">.</span><span class="token function">new</span><span class="token punctuation">(</span><span class="token string">"Part"</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+<span class="token keyword">local</span> size <span class="token operator">=</span> pool<span class="token punctuation">:</span><span class="token function">Size</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</code></pre>
+</div><div class="divider_3z1R"></div><h3 class="anchor anchorWithStickyNavbar_31ik" id="Resize"><code style="text-decoration:none">Resize</code><a aria-hidden="true" class="hash-link" href="#Resize" title="Direct link to heading">​</a></h3><div class="repositoryDetailsContainer_1UH0"><a class="sourceButton_2aE5" href="https://github.com/LewisTehMinerz/Pooler/blob/master/lib/init.lua#L323"><div class="sourceButtonText_monK">&lt;/&gt;</div></a></div><div class="memberString_P8-X"><code>Pooler<!-- -->:</code><code class="green_3LnD">Resize</code><code>(</code><div class="inset_2cJr"><div><code>newSize<!-- -->: </code><code class="blue_2Afy">number</code><span class="inlineDescription_17uy">-- <span>
+<p>The new size the pool should be.</p>
+</span></span></div></div><code>) → </code><code>(</code><code>)</code></div><div>
+<p>Resizes the pool.</p>
+<pre class="language-lua"><code class="language-lua"><span class="token keyword">local</span> pool <span class="token operator">=</span> Pooler<span class="token punctuation">.</span><span class="token function">new</span><span class="token punctuation">(</span>Instance<span class="token punctuation">.</span><span class="token function">new</span><span class="token punctuation">(</span><span class="token string">"Part"</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+pool<span class="token punctuation">:</span><span class="token function">Resize</span><span class="token punctuation">(</span><span class="token number">1000</span><span class="token punctuation">)</span>
+</code></pre>
+</div><h3>Errors</h3><table class="errorTable_25fH"><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>&quot;attempt to use destroyed Pooler instance&quot;</td><td>Occurs when this Pooler has been destroyed and you are trying to call methods on it.</td></tr></tbody></table><div class="divider_3z1R"></div><h3 class="anchor anchorWithStickyNavbar_31ik" id="Destroy"><code style="text-decoration:none">Destroy</code><a aria-hidden="true" class="hash-link" href="#Destroy" title="Direct link to heading">​</a></h3><div class="repositoryDetailsContainer_1UH0"><a class="sourceButton_2aE5" href="https://github.com/LewisTehMinerz/Pooler/blob/master/lib/init.lua#L352"><div class="sourceButtonText_monK">&lt;/&gt;</div></a></div><div class="memberString_P8-X"><code>Pooler<!-- -->:</code><code class="green_3LnD">Destroy</code><code>(</code><code>) → </code><code>(</code><code>)</code></div><div>
+<p>Destroys this Pooler and destroys all instances associated with the pool.</p>
+<pre class="language-lua"><code class="language-lua"><span class="token keyword">local</span> pool <span class="token operator">=</span> Pooler<span class="token punctuation">.</span><span class="token function">new</span><span class="token punctuation">(</span>Instance<span class="token punctuation">.</span><span class="token function">new</span><span class="token punctuation">(</span><span class="token string">"Part"</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+pool<span class="token punctuation">:</span><span class="token function">Destroy</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</code></pre>
+</div></div></article></div><details><summary>Show raw api</summary><pre style="max-width:100%;white-space:pre-wrap">{
+    &quot;functions&quot;: [
+        {
+            &quot;name&quot;: &quot;new&quot;,
+            &quot;desc&quot;: &quot;Creates a new Pooler instance.\n\n```lua\nlocal pool = Pooler.new(Instance.new(\&quot;Part\&quot;))\n```&quot;,
+            &quot;params&quot;: [
+                {
+                    &quot;name&quot;: &quot;instanceTemplate&quot;,
+                    &quot;desc&quot;: &quot;The instance that this Pooler should base its pooled objects on.&quot;,
+                    &quot;lua_type&quot;: &quot;T&quot;
+                },
+                {
+                    &quot;name&quot;: &quot;opts&quot;,
+                    &quot;desc&quot;: &quot;Any extra options you want to pass.&quot;,
+                    &quot;lua_type&quot;: &quot;Options?&quot;
+                }
+            ],
+            &quot;returns&quot;: [
+                {
+                    &quot;desc&quot;: &quot;A Pooler instance.&quot;,
+                    &quot;lua_type&quot;: &quot;Pooler&lt;T&gt;&quot;
+                }
+            ],
+            &quot;function_type&quot;: &quot;static&quot;,
+            &quot;tags&quot;: [
+                &quot;Constructor&quot;
+            ],
+            &quot;errors&quot;: [
+                {
+                    &quot;lua_type&quot;: &quot;\&quot;cannot create Pooler without an instance template\&quot;&quot;,
+                    &quot;desc&quot;: &quot;Occurs when you&#x27;re attempting to create a Pooler without a template.&quot;
+                },
+                {
+                    &quot;lua_type&quot;: &quot;\&quot;cannot create Pooler with cframe return method if instance template is not a BasePart or Model\&quot;&quot;,
+                    &quot;desc&quot;: &quot;Occurs when trying to use the `cframe` ReturnMethod when your template isn&#x27;t a BasePart or a Model.&quot;
+                },
+                {
+                    &quot;lua_type&quot;: &quot;\&quot;cannot create Pooler with cframe return method if instance template is a Model and it has no PrimaryPart\&quot;&quot;,
+                    &quot;desc&quot;: &quot;Occurs when trying to use the `cframe` ReturnMethod when your template is a Model and it has no PrimaryPart.&quot;
+                },
+                {
+                    &quot;lua_type&quot;: &quot;\&quot;cannot use random getMethod with exhaustion enabled\&quot;&quot;,
+                    &quot;desc&quot;: &quot;Occurs when you&#x27;re trying to use the `random` GetMethod with `exhaustion` enabled. `random` is not a valid GetMethod since it might retrieve a nil value.&quot;
+                }
+            ],
+            &quot;source&quot;: {
+                &quot;line&quot;: 84,
+                &quot;path&quot;: &quot;lib/init.lua&quot;
+            }
+        },
+        {
+            &quot;name&quot;: &quot;Get&quot;,
+            &quot;desc&quot;: &quot;Gets an instance from the pool.\n\n```lua\nlocal pool = Pooler.new(Instance.new(\&quot;Part\&quot;))\n\nlocal instance = pool:Get()\n```&quot;,
+            &quot;params&quot;: [],
+            &quot;returns&quot;: [
+                {
+                    &quot;desc&quot;: &quot;An instance.&quot;,
+                    &quot;lua_type&quot;: &quot;T&quot;
+                }
+            ],
+            &quot;function_type&quot;: &quot;method&quot;,
+            &quot;errors&quot;: [
+                {
+                    &quot;lua_type&quot;: &quot;\&quot;attempt to use destroyed Pooler instance\&quot;&quot;,
+                    &quot;desc&quot;: &quot;Occurs when this Pooler has been destroyed and you are trying to call methods on it.&quot;
+                },
+                {
+                    &quot;lua_type&quot;: &quot;\&quot;pool exhausted\&quot;&quot;,
+                    &quot;desc&quot;: &quot;Occurs when the pool has been exhausted of all of it&#x27;s instances and exhaustion is enabled.&quot;
+                }
+            ],
+            &quot;source&quot;: {
+                &quot;line&quot;: 175,
+                &quot;path&quot;: &quot;lib/init.lua&quot;
+            }
+        },
+        {
+            &quot;name&quot;: &quot;Wait&quot;,
+            &quot;desc&quot;: &quot;Gets an instance from the pool. If the pool is exhausted, it will wait until an instance is available before returning.\n\n```lua\nlocal pool = Pooler.new(Instance.new(\&quot;Part\&quot;))\n\nlocal instance = pool:Wait()\n```&quot;,
+            &quot;params&quot;: [],
+            &quot;returns&quot;: [
+                {
+                    &quot;desc&quot;: &quot;An instance.&quot;,
+                    &quot;lua_type&quot;: &quot;T&quot;
+                }
+            ],
+            &quot;function_type&quot;: &quot;method&quot;,
+            &quot;errors&quot;: [
+                {
+                    &quot;lua_type&quot;: &quot;\&quot;attempt to use destroyed Pooler instance\&quot;&quot;,
+                    &quot;desc&quot;: &quot;Occurs when this Pooler has been destroyed and you are trying to call methods on it.&quot;
+                }
+            ],
+            &quot;yields&quot;: true,
+            &quot;source&quot;: {
+                &quot;line&quot;: 228,
+                &quot;path&quot;: &quot;lib/init.lua&quot;
+            }
+        },
+        {
+            &quot;name&quot;: &quot;Return&quot;,
+            &quot;desc&quot;: &quot;Returns an instance to the pool.\n\n```lua\nlocal pool = Pooler.new(Instance.new(\&quot;Part\&quot;))\n\nlocal instance = pool:Get()\n\npool:Return(instance)\n```&quot;,
+            &quot;params&quot;: [
+                {
+                    &quot;name&quot;: &quot;instance&quot;,
+                    &quot;desc&quot;: &quot;The instance to return.&quot;,
+                    &quot;lua_type&quot;: &quot;T&quot;
+                }
+            ],
+            &quot;returns&quot;: [],
+            &quot;function_type&quot;: &quot;method&quot;,
+            &quot;errors&quot;: [
+                {
+                    &quot;lua_type&quot;: &quot;\&quot;attempt to use destroyed Pooler instance\&quot;&quot;,
+                    &quot;desc&quot;: &quot;Occurs when this Pooler has been destroyed and you are trying to call methods on it.&quot;
+                },
+                {
+                    &quot;lua_type&quot;: &quot;\&quot;attempt to return instance not part of this pool\&quot;&quot;,
+                    &quot;desc&quot;: &quot;Occurs when you attempt to return an instance that wasn&#x27;t a part of this pool to begin with.&quot;
+                },
+                {
+                    &quot;lua_type&quot;: &quot;\&quot;instance is not a BasePart or Model but it&#x27;s using the cframe return method\&quot;&quot;,
+                    &quot;desc&quot;: &quot;Occurs when the instance you&#x27;re returning is not a BasePart or a Model, but you&#x27;re somehow using the CFrame return method. If safety is enabled and you haven&#x27;t been tampering with the internals, this is almost always a bug and should be reported.&quot;
+                }
+            ],
+            &quot;source&quot;: {
+                &quot;line&quot;: 261,
+                &quot;path&quot;: &quot;lib/init.lua&quot;
+            }
+        },
+        {
+            &quot;name&quot;: &quot;Size&quot;,
+            &quot;desc&quot;: &quot;Get the current size of the pool.\n\n```lua\nlocal pool = Pooler.new(Instance.new(\&quot;Part\&quot;))\n\nlocal size = pool:Size()\n```&quot;,
+            &quot;params&quot;: [],
+            &quot;returns&quot;: [
+                {
+                    &quot;desc&quot;: &quot;The size of the pool.&quot;,
+                    &quot;lua_type&quot;: &quot;number&quot;
+                }
+            ],
+            &quot;function_type&quot;: &quot;method&quot;,
+            &quot;source&quot;: {
+                &quot;line&quot;: 306,
+                &quot;path&quot;: &quot;lib/init.lua&quot;
+            }
+        },
+        {
+            &quot;name&quot;: &quot;Resize&quot;,
+            &quot;desc&quot;: &quot;Resizes the pool.\n\n```lua\nlocal pool = Pooler.new(Instance.new(\&quot;Part\&quot;))\n\npool:Resize(1000)\n```&quot;,
+            &quot;params&quot;: [
+                {
+                    &quot;name&quot;: &quot;newSize&quot;,
+                    &quot;desc&quot;: &quot;The new size the pool should be.&quot;,
+                    &quot;lua_type&quot;: &quot;number&quot;
+                }
+            ],
+            &quot;returns&quot;: [],
+            &quot;function_type&quot;: &quot;method&quot;,
+            &quot;errors&quot;: [
+                {
+                    &quot;lua_type&quot;: &quot;\&quot;attempt to use destroyed Pooler instance\&quot;&quot;,
+                    &quot;desc&quot;: &quot;Occurs when this Pooler has been destroyed and you are trying to call methods on it.&quot;
+                }
+            ],
+            &quot;source&quot;: {
+                &quot;line&quot;: 323,
+                &quot;path&quot;: &quot;lib/init.lua&quot;
+            }
+        },
+        {
+            &quot;name&quot;: &quot;Destroy&quot;,
+            &quot;desc&quot;: &quot;Destroys this Pooler and destroys all instances associated with the pool.\n\n```lua\nlocal pool = Pooler.new(Instance.new(\&quot;Part\&quot;))\n\npool:Destroy()\n```&quot;,
+            &quot;params&quot;: [],
+            &quot;returns&quot;: [],
+            &quot;function_type&quot;: &quot;method&quot;,
+            &quot;source&quot;: {
+                &quot;line&quot;: 352,
+                &quot;path&quot;: &quot;lib/init.lua&quot;
+            }
+        }
+    ],
+    &quot;properties&quot;: [],
+    &quot;types&quot;: [
+        {
+            &quot;name&quot;: &quot;GetMethod&quot;,
+            &quot;desc&quot;: &quot;The method that this Pooler should use to retrieve instances. `sequential` will retrieve them in an ascending order (item 1 -&gt; item `n`)\nwhilst `random` will retrieve instances randomly.&quot;,
+            &quot;lua_type&quot;: &quot;\&quot;sequential\&quot; | \&quot;random\&quot;&quot;,
+            &quot;source&quot;: {
+                &quot;line&quot;: 33,
+                &quot;path&quot;: &quot;lib/init.lua&quot;
+            }
+        },
+        {
+            &quot;name&quot;: &quot;ReturnMethod&quot;,
+            &quot;desc&quot;: &quot;The method that this Pooler should use to return instances. `nilParent` will set the instance&#x27;s parent to `nil` and leave all other\nproperties intact whilst `cframe` will set the CFrame of the instance to a very long distance away, which is faster for BaseParts\nand Models with PrimaryPart set. `cframe`, as such, is only supported if you&#x27;re pooling BaseParts or Models.&quot;,
+            &quot;lua_type&quot;: &quot;\&quot;nilParent\&quot; | \&quot;cframe\&quot;&quot;,
+            &quot;source&quot;: {
+                &quot;line&quot;: 43,
+                &quot;path&quot;: &quot;lib/init.lua&quot;
+            }
+        },
+        {
+            &quot;name&quot;: &quot;Options&quot;,
+            &quot;desc&quot;: &quot;An object that describes any extra options you want to pass when creating a Pooler. All options are not required.&quot;,
+            &quot;fields&quot;: [
+                {
+                    &quot;name&quot;: &quot;size&quot;,
+                    &quot;lua_type&quot;: &quot;number?&quot;,
+                    &quot;desc&quot;: &quot;The number of objects to initialise this pool with.&quot;
+                },
+                {
+                    &quot;name&quot;: &quot;getMethod&quot;,
+                    &quot;lua_type&quot;: &quot;GetMethod?&quot;,
+                    &quot;desc&quot;: &quot;The get method to use.&quot;
+                },
+                {
+                    &quot;name&quot;: &quot;returnMethod&quot;,
+                    &quot;lua_type&quot;: &quot;ReturnMethod?&quot;,
+                    &quot;desc&quot;: &quot;The return method to use.&quot;
+                },
+                {
+                    &quot;name&quot;: &quot;unsafe&quot;,
+                    &quot;lua_type&quot;: &quot;boolean?&quot;,
+                    &quot;desc&quot;: &quot;Whether or not the Pooler should skip safety checks. This pretty much means that you&#x27;re on your own when it comes to doing things properly, but it increases performance.&quot;
+                },
+                {
+                    &quot;name&quot;: &quot;exhaustion&quot;,
+                    &quot;lua_type&quot;: &quot;boolean?&quot;,
+                    &quot;desc&quot;: &quot;Whether or not the pool can be exhausted. When enabled, instances will be removed from the internal pool table and you will have to return them yourself to add them back.&quot;
+                }
+            ],
+            &quot;source&quot;: {
+                &quot;line&quot;: 57,
+                &quot;path&quot;: &quot;lib/init.lua&quot;
+            }
+        }
+    ],
+    &quot;name&quot;: &quot;Pooler&quot;,
+    &quot;desc&quot;: &quot;An instance pooler.&quot;,
+    &quot;source&quot;: {
+        &quot;line&quot;: 12,
+        &quot;path&quot;: &quot;lib/init.lua&quot;
+    }
+}</pre></details></div><div class="col col--3"><div class="tableOfContents_35-E thin-scrollbar"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#types" class="table-of-contents__link toc-highlight">Types</a><ul><li><a href="#GetMethod" class="table-of-contents__link toc-highlight">GetMethod</a></li><li><a href="#Options" class="table-of-contents__link toc-highlight">Options</a></li><li><a href="#ReturnMethod" class="table-of-contents__link toc-highlight">ReturnMethod</a></li></ul></li><li><a href="#properties" class="table-of-contents__link toc-highlight">Properties</a></li><li><a href="#functions" class="table-of-contents__link toc-highlight">Functions</a><ul><li><a href="#Destroy" class="table-of-contents__link toc-highlight">:Destroy</a></li><li><a href="#Get" class="table-of-contents__link toc-highlight">:Get</a></li><li><a href="#Resize" class="table-of-contents__link toc-highlight">:Resize</a></li><li><a href="#Return" class="table-of-contents__link toc-highlight">:Return</a></li><li><a href="#Size" class="table-of-contents__link toc-highlight">:Size</a></li><li><a href="#Wait" class="table-of-contents__link toc-highlight">:Wait</a></li><li><a href="#new" class="table-of-contents__link toc-highlight">.new</a></li></ul></li></ul></div></div></div></div></main></div></div><footer class="footer footer--dark"><div class="container"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2022 LewisTehMinerz. Built with Moonwave and Docusaurus.</div></div></div></footer></div>
+<script src="/assets/js/runtime~main.ad57161c.js"></script>
+<script src="/assets/js/main.3e565b80.js"></script>
+</body>
+</html>
