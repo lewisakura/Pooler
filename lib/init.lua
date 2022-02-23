@@ -46,11 +46,11 @@ type ReturnMethod = string --"nilParent" | "cframe"
 --[=[
 	@interface Options
 	@within Pooler
-	.size number? -- The number of objects to initialise this pool with.
-	.getMethod GetMethod? -- The get method to use.
-	.returnMethod ReturnMethod? -- The return method to use.
-	.unsafe boolean? -- Whether or not the Pooler should skip safety checks. This pretty much means that you're on your own when it comes to doing things properly, but it increases performance.
-	.exhaustion boolean? -- Whether or not the pool can be exhausted. When enabled, instances will be removed from the internal pool table and you will have to return them yourself to add them back.
+	.size number? -- The number of objects to initialise this pool with. Defaults to 100.
+	.getMethod GetMethod? -- The get method to use. Defaults to "sequential".
+	.returnMethod ReturnMethod? -- The return method to use. Defaults to "nilParent".
+	.unsafe boolean? -- Whether or not the Pooler should skip safety checks. This pretty much means that you're on your own when it comes to doing things properly, but it increases performance. Defaults to false.
+	.exhaustion boolean? -- Whether or not the pool can be exhausted. When enabled, instances will be removed from the internal pool table and you will have to return them yourself to add them back. Defaults to false.
 
 	An object that describes any extra options you want to pass when creating a Pooler. All options are not required.
 ]=]
