@@ -1,7 +1,7 @@
 [package]
 name = "lewistehminerz/pooler"
 description = "Fast and easy to use instance pooler"
-version = "1.0.0"
+version = "1.0.1"
 
 license = "MIT"
 
