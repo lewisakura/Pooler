@@ -101,7 +101,6 @@ function Pooler.new<T>(instanceTemplate: T, opts: Options?): Pooler<T>
 		options.size = 100
 	end
 	if options.getMethod == nil then
-		options.get()
 		options.getMethod = "sequential"
 	end
 	if options.returnMethod == nil then
