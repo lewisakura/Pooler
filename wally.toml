@@ -1,11 +1,11 @@
 [package]
-name = "lewistehminerz/pooler"
+name = "lewisakura/pooler"
 description = "Fast and easy to use instance pooler"
 version = "1.0.1"
 
 license = "MIT"
 
-authors = ["Lewis Crichton <lewistehminerz@outlook.com>"]
+authors = ["Lewis Crichton <lewi@lewisakura.moe>"]
 
 registry = "https://github.com/upliftgames/wally-index"
 

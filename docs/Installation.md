@@ -13,4 +13,4 @@ add it in Roblox Studio.
 
 ## Wally
 
-`pooler = "lewistehminerz/pooler@1.0.1"`
+`pooler = "lewisakura/pooler@1.0.1"`

@@ -1,9 +1,9 @@
 title = "Pooler"
-gitRepoUrl = "https://github.com/LewisTehMinerz/Pooler"
+gitRepoUrl = "https://github.com/lewisakura/Pooler"
 changelog = true
 
 [docusaurus]
-url = "https://pooler.lewistehminerz.dev"
+url = "https://pooler.lewisakura.moe"
 baseUrl = "/"
 tagline = "Fast and easy to use instance pooler."
 favicon = "/logo.png"
